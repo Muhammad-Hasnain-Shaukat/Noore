@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1067" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad3" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FDFBF7"/>
+      <stop offset="60%" stop-color="#EBE3D7"/>
+      <stop offset="100%" stop-color="#D5C7B7"/>
+    </radialGradient>
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3CDA0"/>
+      <stop offset="50%" stop-color="#B69A67"/>
+      <stop offset="100%" stop-color="#7B6137"/>
+    </linearGradient>
+    <filter id="pinShadow">
+      <feDropShadow dx="3" dy="10" stdDeviation="12" flood-color="#352B27" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="1067" fill="url(#bgGrad3)"/>
+
+  <!-- Presentation Canvas / Box Container -->
+  <rect x="220" y="340" width="360" height="360" rx="12" fill="#FAF6F0" stroke="#DCCDC0" stroke-width="2" filter="url(#pinShadow)"/>
+  <rect x="235" y="355" width="330" height="330" rx="8" fill="#F3EBE0"/>
+
+  <!-- Three Pear Coilless Pins Arranged Elegantly -->
+  <g transform="translate(340, 480) rotate(-25)" filter="url(#pinShadow)">
+    <path d="M0 0 C-15 -30, -30 -60, -30 -100 C-30 -140, 30 -140, 30 -100 C30 -60, 15 -30, 0 0 Z" fill="none" stroke="url(#brassGrad)" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="0" cy="-100" r="10" fill="url(#brassGrad)"/>
+  </g>
+
+  <g transform="translate(410, 500) rotate(10)" filter="url(#pinShadow)">
+    <path d="M0 0 C-15 -30, -30 -60, -30 -100 C-30 -140, 30 -140, 30 -100 C30 -60, 15 -30, 0 0 Z" fill="none" stroke="url(#brassGrad)" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="0" cy="-100" r="10" fill="url(#brassGrad)"/>
+  </g>
+
+  <g transform="translate(470, 530) rotate(35)" filter="url(#pinShadow)">
+    <path d="M0 0 C-15 -30, -30 -60, -30 -100 C-30 -140, 30 -140, 30 -100 C30 -60, 15 -30, 0 0 Z" fill="none" stroke="url(#brassGrad)" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="0" cy="-100" r="10" fill="url(#brassGrad)"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="400" y="800" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="500" fill="#352B27" text-anchor="middle" letter-spacing="3">NOORE ATELIER</text>
+  <text x="400" y="835" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#7B8068" text-anchor="middle" letter-spacing="4">SNAG-FREE COILLESS SAFETY PINS</text>
+  <text x="400" y="865" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="400" fill="#A58E7A" text-anchor="middle" letter-spacing="1.5">No Open Coil Entanglement • Preserves Chiffon & Silk Weaves</text>
+</svg>

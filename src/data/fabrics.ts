@@ -1,0 +1,48 @@
+import { FabricInfo } from '../types/product';
+
+export const FABRICS: FabricInfo[] = [
+  {
+    id: 'modal',
+    name: 'Modal',
+    subtitle: 'Ultra-soft & naturally breathable',
+    feel: 'Silky-smooth, featherweight touch with a velvety handfeel that softens further with every wash.',
+    drape: 'Fluid, organic drape that cascades naturally without bulk or stiffness.',
+    styling: 'Ideal for effortless wrap-and-tuck styling, requiring minimal pins for an understated, relaxed silhouette.',
+    recommendedFor: 'Daily workwear, elevated casual styling, and warm weather.',
+    opacity: 'Semi-Opaque (Opaque When Folded Once)',
+    image: '/assets/story/hijab_2.jpg',
+  },
+  {
+    id: 'chiffon',
+    name: 'Chiffon',
+    subtitle: 'Airy, polished & featherlight',
+    feel: 'Crisp yet weightless with an exquisite subtle pebble grain that provides gentle grip.',
+    drape: 'Ethereal and floating. Holds soft folds and tailored pleats with clean definition.',
+    styling: 'Pairs best with a bamboo inner cap and snag-free magnets for formal events, dinners, and occasions.',
+    recommendedFor: 'Occasions, formal dressing, and multi-layered styling.',
+    opacity: 'Light & Semi-Sheer (Pair with Noore Inner Cap)',
+    image: '/assets/story/hijab_3.jpg',
+  },
+  {
+    id: 'jersey',
+    name: 'Jersey',
+    subtitle: 'Pin-free stretch comfort',
+    feel: 'Premium medium-weight 4-way stretch knit with a cooling, cotton-rich texture.',
+    drape: 'Structured and form-hugging with zero slippage, framing the face cleanly without shifting.',
+    styling: 'Requires absolutely zero pins. Simply drape over your shoulders for dependable, active all-day wear.',
+    recommendedFor: 'Travel, busy workdays, workouts, and quick mornings.',
+    opacity: '100% Fully Opaque (Zero Shadowing)',
+    image: '/assets/story/hijab_4.jpg',
+  },
+  {
+    id: 'satin',
+    name: 'Satin',
+    subtitle: 'Luminous sheen with liquid drape',
+    feel: 'Liquid silk hand with a high-luster face and a subtle non-slip crepe matte backing.',
+    drape: 'Heavy liquid cascade that catches ambient light with understated luxury.',
+    styling: 'Secure with our matte brass magnets at the jawline for gala evenings and wedding celebrations.',
+    recommendedFor: 'Weddings, celebratory events, and evening occasions.',
+    opacity: '100% Fully Opaque With High Luster',
+    image: '/assets/story/hijab_5.jpg',
+  },
+];

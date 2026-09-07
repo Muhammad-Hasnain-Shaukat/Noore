@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1067" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad2" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FBF9F5"/>
+      <stop offset="60%" stop-color="#ECE2D6"/>
+      <stop offset="100%" stop-color="#D6C7B7"/>
+    </radialGradient>
+    <linearGradient id="fabricShade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EBE0D3"/>
+      <stop offset="50%" stop-color="#D8C7B5"/>
+      <stop offset="100%" stop-color="#BCA895"/>
+    </linearGradient>
+    <filter id="capShadow">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#352B27" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="1067" fill="url(#bgGrad2)"/>
+
+  <!-- Presentation Pedestal -->
+  <ellipse cx="400" cy="580" rx="280" ry="140" fill="#E2D4C3" opacity="0.5"/>
+
+  <!-- Sculpted Bamboo Inner Cap (Criss-Cross Front Silhouette) -->
+  <g transform="translate(400, 480)" filter="url(#capShadow)">
+    <!-- Cap Crown / Body -->
+    <path d="M-130 -60 C-130 -160, 130 -160, 130 -60 C140 40, 100 120, 0 130 C-100 120, -140 40, -130 -60 Z" fill="url(#fabricShade)"/>
+    
+    <!-- Ribbed Texture Overlay Lines -->
+    <path d="M-110 -50 C-40 -40, 40 -40, 110 -50" stroke="#CBB9A7" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M-115 -20 C-40 -10, 40 -10, 115 -20" stroke="#CBB9A7" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M-120 10 C-40 20, 40 20, 120 10" stroke="#CBB9A7" stroke-width="2" fill="none" opacity="0.6"/>
+
+    <!-- Criss Cross Front Forehead Bands -->
+    <path d="M-120 40 Q-20 60, 120 -10" stroke="#FAF6F0" stroke-width="22" stroke-linecap="round" fill="none" opacity="0.95"/>
+    <path d="M120 40 Q20 60, -120 -10" stroke="#EFE6DA" stroke-width="20" stroke-linecap="round" fill="none" opacity="0.9"/>
+
+    <!-- Subtle Label -->
+    <circle cx="0" cy="-90" r="16" fill="#F7F3ED" opacity="0.8"/>
+    <text x="0" y="-85" font-family="'Cormorant Garamond', serif" font-size="14" fill="#352B27" text-anchor="middle">N</text>
+  </g>
+
+  <!-- Typography -->
+  <text x="400" y="800" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="500" fill="#352B27" text-anchor="middle" letter-spacing="3">NOORE ESSENTIALS</text>
+  <text x="400" y="835" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#7B8068" text-anchor="middle" letter-spacing="4">CRISS-CROSS BAMBOO INNER CAP</text>
+  <text x="400" y="865" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="400" fill="#A58E7A" text-anchor="middle" letter-spacing="1.5">Anti-Headache Flatlock Seams • Hair Protection • Breathable Rib</text>
+</svg>
